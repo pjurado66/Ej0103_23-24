@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEXTO"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupFondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonDFondoNegro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fondo Negro" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFondoVerde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fondo verde" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFondoRojo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fondo Rojo" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonTextoBlanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto blanco" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTextoAmarillo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Texto Amarillo" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTextoAzul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Texto azul" />
+
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Mostrar texto" />
+</LinearLayout>
