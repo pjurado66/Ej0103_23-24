@@ -1,4 +1,4 @@
-# Ej0202
+# Ej0102
 La interfaz de su única actividad (llamada Principal) contendrá dos grupos de botones
 de radio y un checkbox, además de un elemento de tipo TextView en la parte
 superior.
